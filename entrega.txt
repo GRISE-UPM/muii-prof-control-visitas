@@ -1,0 +1,2 @@
+# Lo escribe aws-scripts/desplegar.sh: la IP pública (elástica) de tu instancia.
+INSTANCE_IP=184.195.40.248
