@@ -3,7 +3,7 @@
   "context": {
     "exam_id": "110037",
     "mi_ip": "138.4.194.239",
-    "repo_url": "TODO (Tarea 2)",
+    "repo_url": "https://github.com/MaxTwer/muii-prof-control-visitas",
     "db_host": "control-visitas-writer.cdciac06i0ta.us-east-1.rds.amazonaws.com",
     "db_name": "db_control_visitas",
     "secret_name": "control-visitas/db"
