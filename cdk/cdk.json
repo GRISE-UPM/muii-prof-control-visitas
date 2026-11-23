@@ -1,10 +1,10 @@
 {
   "app": "python app.py",
   "context": {
-    "exam_id": "",
-    "mi_ip": "",
-    "repo_url": "TODO (Tarea 2)",
-    "db_host": "control-visitas-writer.cdciac06i0ta.us-east-1.rds.amazonaws.com",
+    "exam_id": "050103",
+    "mi_ip": "138.4.196.34",
+    "repo_url": "https://github.com/ajbe13/muii-prof-control-visitas",
+    "db_host": "control-visitas.cluster-cdciac06i0ta.us-east-1.rds.amazonaws.com",
     "db_name": "db_control_visitas",
     "secret_name": "control-visitas/db"
   }
