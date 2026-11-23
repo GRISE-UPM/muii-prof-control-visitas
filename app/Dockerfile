@@ -16,6 +16,8 @@ RUN mvn -q -B package -DskipTests
 # TODO (Tarea 1): imagen base. La imagen oficial de Eclipse Temurin con Java 21, en su variante que solo
 # incluye el entorno de ejecución (JRE), no el JDK.
 
+FROM eclipse-temurin:21-jre
+
 WORKDIR /app
 COPY --from=build /src/target/app.jar app.jar
 
@@ -25,6 +27,10 @@ ENV GIT_COMMIT=$GIT_COMMIT
 
 # La aplicación no necesita privilegios
 USER nobody
+
+EXPOSE 8080
+
+ENTRYPOINT ["java", "-jar", "app.jar"]
 
 # TODO (Tarea 1): documenta el puerto en el que escucha la aplicación (mira server.port en application.properties).
 
