@@ -15,6 +15,7 @@ RUN mvn -q -B package -DskipTests
 # --- Etapa 2: ejecución ---------------------------------------------------------------------
 # DONE (Tarea 1): imagen base. La imagen oficial de Eclipse Temurin con Java 21, en su variante que solo
 # incluye el entorno de ejecución (JRE), no el JDK.
+FROM eclipse-temurin:21-jre
 
 WORKDIR /app
 COPY --from=build /src/target/app.jar app.jar
