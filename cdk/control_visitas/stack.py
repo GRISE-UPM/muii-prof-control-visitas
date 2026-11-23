@@ -46,11 +46,11 @@ class ControlVisitasStack(cdk.Stack):
             f"docker build --build-arg GIT_COMMIT={commit} -t control-visitas /opt/control-visitas/app",
             " ".join([
                 "docker run -d --name contenedor-control-visitas --restart unless-stopped",
-                # TODO (Tarea 2): publica el puerto 80 de la instancia en el puerto del contenedor.
+                "-p 80:8080",
                 f"-e EXAM_ID={exam_id}",
                 f"-e DB_HOST={db_host}",
                 f"-e DB_NAME={db_name}",
-                # TODO (Tarea 3): pasa al contenedor el nombre del secreto (variable secret_name).
+                f"-e SECRET_NAME={secret_name}",
                 "-e AWS_REGION=us-east-1",
                 "control-visitas",                  # la imagen construida con docker build -t
             ]),
