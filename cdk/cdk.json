@@ -4,7 +4,7 @@
     "exam_id": "357175",
     "mi_ip": "80.103.137.210",
     "repo_url": "https://github.com/SantiagoRodriguezGSM/muii-prof-control-visitas.git",
-    "db_host": "control-visitas-writer.cdciac06i0ta.us-east-1.rds.amazonaws.com",
+    "db_host": "control-visitas.cluster-cdciac06i0ta.us-east-1.rds.amazonaws.com",
     "db_name": "db_control_visitas",
     "secret_name": "control-visitas/db"
   }
