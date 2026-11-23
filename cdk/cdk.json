@@ -4,7 +4,7 @@
     "exam_id": "676767",
     "mi_ip": "138.4.195.31",
     "repo_url": "https://github.com/rulimuli/muii-prof-control-visitas",
-    "db_host": "cocontrol-visitas.cluster-cdciac06i0ta.us-east-1.rds.amazonaws.com",
+    "db_host": "control-visitas.cluster-cdciac06i0ta.us-east-1.rds.amazonaws.com",
     "db_name": "db_control_visitas",
     "secret_name": "control-visitas/db"
   }
