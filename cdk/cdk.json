@@ -3,7 +3,7 @@
   "context": {
     "exam_id": "123456",
     "mi_ip": "138.4.194.255",
-    "repo_url": "TODO (Tarea 2)",
+    "repo_url": "https://github.com/etsiinf-marcoscr/muii-prof-control-visitas.git",
     "db_host": "control-visitas-writer.cdciac06i0ta.us-east-1.rds.amazonaws.com",
     "db_name": "db_control_visitas",
     "secret_name": "control-visitas/db"
