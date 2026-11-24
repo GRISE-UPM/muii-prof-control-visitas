@@ -2,7 +2,7 @@
   "app": "python app.py",
   "context": {
     "exam_id": "220197",
-    "mi_ip": "138.4.196.46",
+    "mi_ip": "80.29.231.194",
     "repo_url": "https://github.com/Juuanortiz/muii-prof-control-visitas.git",
     "db_host": "control-visitas-writer.cdciac06i0ta.us-east-1.rds.amazonaws.com",
     "db_name": "db_control_visitas",
